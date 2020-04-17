@@ -154,13 +154,15 @@ namespace InterfazP
 
         private void button14_Click(object sender, EventArgs e)
         {
+            
+            Value1 = double.Parse(textBoard.Text);
 
             int a = 0;
             int b = 1;
             int c = 1;
-            listBox1.Items.Add(a.ToString());
 
-            for (int i = 0; i < 6; i++)
+           
+            for (int i = 0; i <= Value1; i++)
             {
                 listBox1.Items.Add(a.ToString());
                 a = b;
